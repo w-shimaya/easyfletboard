@@ -24,6 +24,10 @@
         <option value="mixolydian">Mixolydian</option>
         <option value="aeorian">Aeorian/Natural Minor</option>
         <option value="locrian">Locrian</option>
+        <option value="majseventh">Δ7 chord tone</option>
+        <option value="minseventh">m7 chord tone</option>
+        <option value="domseventh">7 chord tone</option>
+        <option value="halfdim">φ chord tone</option>
       </select>
     </p>
   </div>

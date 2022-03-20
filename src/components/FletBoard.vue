@@ -11,6 +11,10 @@ const SCALES = {
   mixolydian: [0, 2, 4, 5, 7, 9, 10],
   aeorian: [0, 2, 3, 5, 7, 8, 10],
   locrian: [0, 1, 3, 5, 6, 8, 10],
+  majseventh: [0, 4, 7, 11],
+  minseventh: [0, 3, 7, 10],
+  domseventh: [0, 4, 7, 10],
+  halfdim: [0, 3, 6, 10],
 };
 
 const INT_NAME = [
@@ -98,7 +102,7 @@ export default {
       // draw notes
       // root
       this.ctx.textAlign = "center";
-      this.ctx.font = "13pt Tahoma";
+      this.ctx.font = "13pt Noto Music";
       this.ctx.textBaseline = "middle";
       for (let s = 0; s < 6; s++) {
         for (let f = 0; f < 11; f++) {
