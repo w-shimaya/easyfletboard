@@ -102,10 +102,10 @@ export default {
       // draw notes
       // root
       this.ctx.textAlign = "center";
-      this.ctx.font = "13pt Noto Music";
+      this.ctx.font = "11pt Meiryo";
       this.ctx.textBaseline = "middle";
       for (let s = 0; s < 6; s++) {
-        for (let f = 0; f < 11; f++) {
+        for (let f = 0; f < 12; f++) {
           let interval = (this.opennote[s] + f + 12 - this.rootnote) % 12;
           let x = 800 / 24 + (800 / 12) * f;
           let y = 25 + ((200 - 2 * 25) / 5) * (5 - s);
